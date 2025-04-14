@@ -80,39 +80,73 @@ The scenario applies the same for each product in the automata.
 
 ## Production Rules for NFA
 q0 → Op1 q1 | Op2 q2
+
 q1 → SelNP q4 | SelMR q5 | SelSPF q6
+
 q2 → SelPn q7 | SelPl q8 | SelC q9
+
 q4 → CheckAv q13
+
 q5 → CheckAv q14
+
 q6 → CheckAv q15
+
 q7 → CheckAv q17
+
 q8 → CheckAv q18
+
 q9 → CheckAv q19
+
 q13 → Av q23 | NotAv q32
+
 q14 → Av q24 | NotAv q32
+
 q15 → Av q25 | NotAv q32
+
 q16 → Nots q54 | Succ q3
+
 q17 → Av q42 | NotAv q45
+
 q18 → Av q43 | NotAv q45
+
 q19 → Av q44 | NotAv q45
+
 q23 → 10 q26,q27
+
 q24 → 15 q28,q29
+
 q25 → 55 q30,q31
+
 q26 → Nots q34 | Succ q3
+
 q27→ Nots q34 | Succ q3
+
 q28→ Nots q37 | Succ q3
+
 q29 → Nots q37 | Succ q3
+
 q30→ Nots q40 | Succ q3
+
 q31→ Nots q40 | Succ q3
+
 q32 → Pnot q0
+
 q42 → 5 q46, q47
+
 q43 → 15 q16,q52
+
 q44 → 10 q56, 57
+
 q45 → Pnot q0
+
 q46 → Nots q50 | Succ q3
+
 q47 → Nots q50 | Succ q3
+
 q52 → Nots q54 | Succ q3
+
 q56 → Nots q59 | Succ q3
+
 q57 → Nots q59 | Succ q3
 
 
