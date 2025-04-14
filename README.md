@@ -124,72 +124,140 @@ q57 → Nots q59 | Succ q3
 
 Q0 → Op1 Q1 | Op2 Q2 | SelNp D | Sel MR D | SelSpF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAv D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q1 → Op1 D | Op2 D | SelNp q4 | SelMR q5 | Selg SPF q5 | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q2 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm q7 | SelP1 q8 | SelC q9 |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q4 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q13 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q5 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q14 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q6 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q15 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q7 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q17 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q8 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q18 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q9 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv q19 | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q13 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av q23 | NotAV q32 | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q14 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av 24 | NotAV 32 | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q15 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av 25 | NotAV 32 | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q16 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q54 | Succ q3
+
+
 Q17 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q18 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q19 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av q24 | NotAV q45 | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q23 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 q26,q27 | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q24 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 q28,q29 | 55 D | 5 D | NotS D | Succ D
+
+
 Q25 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS D | Succ D
+
+
 Q26 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q34 | Succ q3
+
+
 Q27 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q34 | Succ q3
+
+
 Q28 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q37 | Succ q3
+
+
 Q29 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q37 | Succ q3
+
+
 Q30 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q40 | Succ q3
+
+
 Q31 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS q40 | Succ q3
+
+
 Q32 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 D | NotS D | Succ D
+
+
 Q42 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D | 55 D | 5 q46,q47 | NotS D | Succ D
+
+
 Q43 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 q16,q25 | 55 D | 5 D | NotS D | Succ D
+
+
 Q44 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 q56,q57 | 15 D| 55 D | 5 D | NotS D | Succ D
+
+
 Q45 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS D | Succ D
+
+
 Q46 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS 50 | Succ 3
+
+
 Q47 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS 5 | Succ 3
+
+
 Q52 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS 54 | Succ 3
+
+
 Q56 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS 59 | Succ 3
+
+
 Q57 → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
 CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS 59 | Succ 3
 D → Op1 D | Op2 D | SelNp D | SelMR D | Selg SPF D | SelPm D | SelP1 D | SelC D |
@@ -202,6 +270,7 @@ CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS D | Succ D
 
 ## Table for op1 new status name
 
+![cfg](https://github.com/user-attachments/assets/23408ea2-ee88-4579-9dce-117bfcd61f7b)
 
 
 
@@ -211,27 +280,49 @@ CheckAv D | Av D | NotAV D | Pmot D | 10 D | 15 D| 55 D | 5 D | NotS D | Succ D
 
 Start symbol: S
 S → op1A | resetW | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D | notsD | succD
+
 A → selnpB | selmrC | selspfE | op1D | checkD | yD | nD | pnotD | 10D | 15D | 5D | notsD | succD
+
 W → ɛ
+
 B → checkF | op1D | selnpD | selmrD | selspfD | yD | nD | pnotD | 10D | 15D | 5D | notsD | succD
+
 C → checkG | op1D | selnpD | selmrD | selspfD | yD | nD | pnotD | 10D | 15D | 5D | notsD | succD
+
 E → checkH | op1D | selnpD | selmrD | selspfD | yD | nD | pnotD | 10D | 15D | 5D | notsD | succD
+
 F → yI | nJ | op1D | selnpD | selmrD | selspfD | checkD | pnotD | 10D | 15D | 5D | notsD | succD
+
 G → yK | nJ | op1D | selnpD | selmrD | selspfD | checkD | pnotD | 10D | 15D | 5D | notsD | succD
+
 H → yL | nJ | op1D | selnpD | selmrD | selspfD | checkD | pnotD | 10D | 15D | 5D | notsD | succD
+
 I → 10M | 10N | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 15D | 5D | notsD | succD
+
 J → pnotS | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | 10D | 15D | 5D | notsD | succD
+
 K → 15O | 15P | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 5D | notsD | succD
+
 L → 5R | 5Q | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | notsD | succD
+
 M → succT | notsX | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 N → succT | notsX | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 O → succT | notsU | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 P → succT | notsU | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 R → succT | notsV | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 Q → succT | notsV | op1D | selnpD | selmrD | selspfD | checkD | yD | nD | pnotD | 10D | 15D | 5D
+
 T → ɛ
+
 X → ɛ
+
 U → ɛ
+
 V → ɛ
 
 
