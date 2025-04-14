@@ -331,14 +331,25 @@ V → ɛ
 ### Accepted Strings in OP1 examples :
 
 Op1selspfchecky5succ
+
 Op1selnpcheckmpnotreset
+
 Op1selmrchecky15succ
+
 Op1selnpchecky10succ
+
+
+
+
+
 ### Rejected Strings in OP1 examples :
 
 Op1selnp
+
 100
+
 Op1selmr500
+
 Op2
 
 
