@@ -388,16 +388,30 @@ Op2
 
 
 
+![1](https://github.com/user-attachments/assets/976293c9-1f14-4933-a130-d57ee07959d4)
+
+
+
+
+![2](https://github.com/user-attachments/assets/889281b2-e27d-446f-88ad-12ad08f22a8d)
+
+
+
+
+![3](https://github.com/user-attachments/assets/f1ae1d9a-c019-48a9-8dc3-f5876923fa1f)
+
+
+
+
+
+![4](https://github.com/user-attachments/assets/f009a910-d136-4fd0-8a10-25c52ccf149f)
 
 
 
 
 
 
-
-
-
-
+![5](https://github.com/user-attachments/assets/820d3558-6e87-472e-a174-8dc7ca8a7127)
 
 
 
