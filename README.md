@@ -1,4 +1,6 @@
 # Pharmacy Vending Machine 
+<img width="494" height="373" alt="ven" src="https://github.com/user-attachments/assets/72ff39c1-e1d0-47fb-bd01-fbc3c82384b5" />
+
 
 ## Scope 
 In this project, a vending machine was designed using Finite State Machines. It is intended to be placed in markets, restaurants,
